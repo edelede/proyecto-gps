@@ -1,12 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import { render } from "react-dom";
 
-class App extends Component{
-    render() {
-        return (
-            <h1>Hola carlita</h1>
-        )
-    }
-}
+import App from './App.jsx';
+
 
 render(<App/>, document.getElementById('app'));
